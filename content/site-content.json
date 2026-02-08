@@ -1,0 +1,147 @@
+{
+    "global": {
+        "restaurantName": "Monika Restaurant",
+        "tagline": "Authentic West African Seafood and Charcoal Grill",
+        "address": "14 Deptford Broadway, London SE8 4PA",
+        "phone": "020 3345 3841",
+        "phoneLink": "tel:+442033453841",
+        "bookingUrl": "https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant",
+        "menuPdfUrl": "/menu.pdf",
+        "parkingUrl": "https://maps.app.goo.gl/1ZHKEzsGW2fBqyNQ9",
+        "instagramUrl": "https://www.instagram.com/monikarestaurants/",
+        "facebookUrl": "https://www.facebook.com/805Restaurants/",
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.1!2d-0.0265!3d51.4738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI4JzI1LjciTiAwwrAwMSczNS42Ilc!5e0!3m2!1sen!2suk!4v1!5m2!1sen!2suk",
+        "openingTimes": [
+            {
+                "days": "Mon–Thu",
+                "hours": "17:00–23:00"
+            },
+            {
+                "days": "Fri",
+                "hours": "13:00–23:30"
+            },
+            {
+                "days": "Sat",
+                "hours": "13:00–23:30"
+            },
+            {
+                "days": "Sun",
+                "hours": "13:00–23:00"
+            }
+        ]
+    },
+    "home": {
+        "hero": {
+            "headline": "Authentic West African Seafood and Charcoal Grill",
+            "subheadline": "Experience the bold flavours and rich culinary heritage of West Africa at Monika Restaurant, Deptford.",
+            "trustChips": [
+                "West African Seafood",
+                "Charcoal Grill",
+                "Private Hire"
+            ]
+        },
+        "sections": [
+            {
+                "id": "food",
+                "title": "Food",
+                "subtitle": "Authentic African Flavours",
+                "body": "At Monika Restaurant, we take pride in delivering the finest West African Seafood and Charcoal Grill. Our menu is a celebration of bold flavours, vibrant spices, and fresh ingredients, carefully prepared by our expert chefs. Whether you're indulging in classic dishes like Jollof Rice or exploring our contemporary twists on African favourites, each plate is a true reflection of the rich culinary heritage of the region. Taste the soul of Africa, one bite at a time."
+            },
+            {
+                "id": "bookings",
+                "title": "Bookings",
+                "subtitle": "Reserve Your Table with Ease",
+                "body": "Planning your next meal at Monika is effortless. Whether you're gathering with friends or having an intimate dinner, our simple online booking system ensures you secure the perfect spot. Choose your preferred date and time, and let us take care of the rest. Walk-ins are always welcome, but reservations are recommended to guarantee your seat, especially during peak times."
+            },
+            {
+                "id": "private-hire",
+                "title": "Private Hire",
+                "subtitle": "Your Event, Our Venue",
+                "body": "Monika Restaurant is the ideal setting for any private celebration or corporate event. Our stylish and spacious venue can be tailored to suit your needs, offering a unique blend of modern elegance and African warmth. From birthday parties and weddings to business meetings and exclusive dinners, our dedicated team will work with you to create a bespoke event that exceeds expectations."
+            }
+        ],
+        "menuTiles": [
+            {
+                "title": "Food Menu",
+                "description": "Explore a variety of West African Seafood and Charcoal Grill, crafted with fresh ingredients and bold flavours.",
+                "link": "/menu.html",
+                "icon": "🍽️"
+            },
+            {
+                "title": "Drinks Menu",
+                "description": "Savour our selection of refreshing cocktails, premium spirits, and traditional African beverages.",
+                "link": "/menu.html#drinks",
+                "icon": "🍸"
+            },
+            {
+                "title": "Private Hire",
+                "description": "Tailored for your special occasions, our private hire menu offers a curated selection of dishes.",
+                "link": "/private-hire.html",
+                "icon": "🎉"
+            }
+        ]
+    },
+    "story": {
+        "title": "Our Story",
+        "subtitle": "The Story of Monika",
+        "paragraphs": [
+            "Welcome to Monika Restaurants, where every dish created in our kitchen celebrates authentic West African flavours, culture, and community. Now open in the heart of Deptford, we welcome all ages to an unforgettable, luxurious yet casual dining experience.",
+            "We are a seafood and open-grill restaurant, proud to be part of the award-winning 805 Restaurant Group.",
+            "We named our restaurant after the famous and iconic Monika fish, a whole grilled popular fish dish to honour an incredible dish that was created by the pioneers of 805 restaurant Mr Frederick James and Mrs Damaris James.",
+            "Monika Fish has now become symbolic and a traditional favourite in the Nigerian community. Monika fish represents the rich culinary heritage and high standards that the 805 Restaurant Group is known for.",
+            "This whole grilled croaker fish is marinated in our special home seasonings and spices, then chargrilled to lock in a delicious smoky flavour that complements the dish. The fish is finished with a generous amount of our spicy Monika sauce."
+        ]
+    },
+    "gallery": {
+        "images": [
+            {
+                "src": "/images/gallery/1.jpg",
+                "alt": "Monika Restaurant interior"
+            },
+            {
+                "src": "/images/gallery/2.jpg",
+                "alt": "Charcoal grilled seafood"
+            },
+            {
+                "src": "/images/gallery/3.jpg",
+                "alt": "Restaurant ambiance"
+            },
+            {
+                "src": "/images/gallery/4.jpg",
+                "alt": "West African cuisine"
+            },
+            {
+                "src": "/images/gallery/5.jpg",
+                "alt": "Dining experience"
+            },
+            {
+                "src": "/images/gallery/6.jpg",
+                "alt": "Premium seafood platter"
+            },
+            {
+                "src": "/images/gallery/7.jpg",
+                "alt": "Restaurant atmosphere"
+            },
+            {
+                "src": "/images/gallery/8.jpg",
+                "alt": "Signature dishes"
+            },
+            {
+                "src": "/images/gallery/9.jpg",
+                "alt": "Private dining setup"
+            },
+            {
+                "src": "/images/gallery/10.jpg",
+                "alt": "Bar and cocktails"
+            },
+            {
+                "src": "/images/gallery/11.jpg",
+                "alt": "Chef's special"
+            },
+            {
+                "src": "/images/gallery/12.jpg",
+                "alt": "Monika Restaurant exterior"
+            }
+        ]
+    }
+}

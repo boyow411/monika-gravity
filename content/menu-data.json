@@ -1,0 +1,762 @@
+{
+    "food": {
+        "smallChops": {
+            "title": "Small Chops",
+            "items": [
+                {
+                    "name": "Garden Rocket Salad",
+                    "price": 6,
+                    "description": "Simple side salad featuring peppery rocket leaves, crisp cucumber slices, thinly sliced onion, and juicy cherry tomatoes.",
+                    "addOns": "Add - Chicken 2.5 | Add - Prawns 3.5",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Our Mac & Cheese",
+                    "price": 8,
+                    "description": "Creamy mac and cheese with a rich Béchamel sauce and melted cheese.",
+                    "addOns": "Add - King Prawns 3.5",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Hot & Smoky BBQ Wings",
+                    "price": 9,
+                    "description": "Succulent wings coated in a rich BBQ sauce with a spicy twist.",
+                    "tags": [
+                        "spicy",
+                        "grill"
+                    ]
+                },
+                {
+                    "name": "Vegetable Spring Rolls",
+                    "price": 10,
+                    "description": "Crispy fried golden rolls filled with a vibrant mixed vegetables, perfect for a light and tasty appetizer.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Asun",
+                    "price": 16,
+                    "description": "Slow roasted tender Goat meat served in a spicy sauce, cut into bite sized pieces.",
+                    "tags": [
+                        "spicy",
+                        "grill"
+                    ]
+                },
+                {
+                    "name": "Tropical Grilled Tiger Prawns",
+                    "price": 16,
+                    "description": "Succulent tiger prawns halved and grilled, served with a tropical pepper sauce.",
+                    "tags": [
+                        "seafood",
+                        "grill"
+                    ]
+                },
+                {
+                    "name": "Fire Shell Pepper Scallops",
+                    "price": 15,
+                    "description": "Tender scallops presented in a flame shell, infused with rich butter, garlic, and African spice blend.",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Charcoal-Grilled Suya Corn Ribs",
+                    "price": 10,
+                    "description": "Sweet corn ribs grilled over charcoal and dusted in bold suya seasoning. Smoky, spicy, and irresistibly crunchy.",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "contains-nuts"
+                    ]
+                },
+                {
+                    "name": "Chichinga Fish Skewers",
+                    "price": 14,
+                    "description": "Tender cod fish chunks marinated in bold Ghanaian spices, skewered with vibrant peppers, and grilled to smoky perfection — a spicy, flavorful twist on the classic Chichinga street favourite.",
+                    "tags": [
+                        "seafood",
+                        "grill",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Spicy Beef Spring Rolls",
+                    "price": 14,
+                    "description": "Crispy golden spring rolls stuffed with tender, spicy pulled beef. Paired with our signature sweet and tangy dipping sauce.",
+                    "tags": [
+                        "spicy"
+                    ]
+                }
+            ]
+        },
+        "seafoodDishes": {
+            "title": "Seafood Dishes",
+            "items": [
+                {
+                    "name": "Royal Lobster Feast",
+                    "price": 75,
+                    "description": "A whole lobster smothered in bold, creamy sauce, blending fiery African chili with savory, buttery notes. Served with a choice of a side.",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Ocean Fire Seafood Pepper Soup",
+                    "price": 20,
+                    "description": "A rich, spicy broth brimming with mussels, tilapia fillet, calamari, and king prawns for a bold, flavorful seafood experience.",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Seafood Spaghetti",
+                    "price": 24,
+                    "description": "Spaghetti loaded with mussels, calamari and king prawns in a rich spicy butter garlic seafood sauce.",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "King Size Seafood Bag",
+                    "price": 65,
+                    "description": "Sautéed Lobster Tail, Snow Crab, Squid, Prawns, Shrimps, Mussels, Corn, Mixed Pepper, Potatoes and Boiled Egg served with a choice of a side. (Please select your flavor — Special hot pepper sauce or our cream garlic butter sauce)",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Charcoal-Grilled Monika Whole Croaker Fish",
+                    "price": 30,
+                    "description": "Juicy croaker fish grilled over charcoal, served with our signature Monika spicy sauce and a choice of side.",
+                    "tags": [
+                        "seafood",
+                        "grill",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Hot Sizzling Monika Whole Tilapia",
+                    "price": 32,
+                    "description": "Whole tilapia served sizzling with spicy red pepper sauce and a choice of side.",
+                    "tags": [
+                        "seafood",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Charcoal-Grilled River King Catfish",
+                    "price": 37,
+                    "description": "Charcoal-grilled catfish with bold West African spices, served with a choice of side.",
+                    "tags": [
+                        "seafood",
+                        "grill"
+                    ]
+                },
+                {
+                    "name": "Giant Tiger Prawns & Mussel Platter",
+                    "price": 50,
+                    "description": "Succulent giant tiger prawns and mussels in a rich house sauce, served with a choice of side.",
+                    "tags": [
+                        "seafood"
+                    ]
+                }
+            ]
+        },
+        "riceAndStew": {
+            "title": "Rice & Stew",
+            "items": [
+                {
+                    "name": "Seasonal Stir-Fry Vegetables",
+                    "price": 18,
+                    "description": "Fresh seasonal vegetables stir-fried with aromatic spices.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Tomato Stew & Rice Delight",
+                    "price": 22,
+                    "description": "Slow-cooked tomato stew with your choice of white or jollof rice. Protein options: Beef, Chicken, or Prawns.",
+                    "tags": []
+                },
+                {
+                    "name": "MOTHER'S Home Cooked Smoked Oxtail",
+                    "price": 28,
+                    "description": "Rich, slow-smoked oxtail in a hearty sauce, served over fragrant jollof rice with sweet plantain and fresh salad — a soulful West African special, made with love.",
+                    "tags": []
+                },
+                {
+                    "name": "Grilled Pepper Tiger Prawns with Jollof",
+                    "price": 26,
+                    "description": "Giant tiger prawns grilled to perfection in the chef's spicy house sauce, served alongside fluffy, flavor-packed jollof rice.",
+                    "tags": [
+                        "seafood",
+                        "grill",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Efo Riro Stew & Steamed Rice",
+                    "price": 24,
+                    "description": "A mixture of chopped spinach cooked with a shrimp and fish red pepper stew served with a choice of Beef or Chicken with a side of fried plantain.",
+                    "tags": [
+                        "seafood"
+                    ]
+                },
+                {
+                    "name": "King Prawn & Squid Fried Rice — Chef's Signature",
+                    "price": 19,
+                    "description": "Stir fried rice with a medley of King Prawns and Squid (Contains Egg). Add — Crispy Fried Beef 3.",
+                    "tags": [
+                        "seafood",
+                        "contains-egg"
+                    ]
+                },
+                {
+                    "name": "Banga Tiger Prawn & Steamed Rice",
+                    "price": 24,
+                    "description": "Tiger Prawns cooked in a rich palm nut sauce, served with steamed rice and Fried Plantain. (Contains Nuts). Options available: Beef / Chicken.",
+                    "tags": [
+                        "seafood",
+                        "contains-nuts"
+                    ]
+                }
+            ]
+        },
+        "suyaAndMeat": {
+            "title": "Suya & Meat Dishes",
+            "items": [
+                {
+                    "name": "Charcoal-Grilled Beef Suya",
+                    "price": 16,
+                    "description": "Savory tozo beef marinated in suya spices, grilled on coals and served with onions and tomatoes (Contains Nuts).",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "contains-nuts"
+                    ]
+                },
+                {
+                    "name": "Charcoal Flame Chicken Suya",
+                    "price": 25,
+                    "description": "Marinated chicken in a traditional suya spices grilled to perfection for a smoky and spicy flavourful experience (Contains Nuts). Full Chicken: 24 | Half Chicken: 16.",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "contains-nuts"
+                    ]
+                },
+                {
+                    "name": "Ultimate Suya Mixed Grill Meat Platter",
+                    "price": 50,
+                    "description": "An indulgent assortment of chicken, lamb, beef suya, & giant suya prawns, each infused with Suya spices and grilled for a flavorful experience (Contains Nuts).",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "seafood",
+                        "contains-nuts"
+                    ]
+                },
+                {
+                    "name": "Charcoal Grilled Lamb Chops",
+                    "price": 40,
+                    "description": "Perfectly charcoal grilled lamb chops glazed with a vibrant, spicy sauce inspired by West African flavours, served with any choice of one side.",
+                    "tags": [
+                        "grill",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Guinea Fowl Suya",
+                    "price": 25,
+                    "description": "Tender guinea fowl grilled to perfection with rich Suya spices, served with sliced onions and cherry tomatoes for a fresh & spicy contrast, served with any choice of side.",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "contains-nuts"
+                    ]
+                },
+                {
+                    "name": "Charcoal Ribeye SUYA Steak Flame",
+                    "price": 32,
+                    "description": "Premium ribeye steak seasoned with suya spices and flame-grilled over charcoal. Served with a side of your choice.",
+                    "tags": [
+                        "grill",
+                        "spicy",
+                        "contains-nuts"
+                    ]
+                }
+            ]
+        },
+        "sharing": {
+            "title": "Sharing",
+            "items": [
+                {
+                    "name": "Taste of Monika's Sharing Feast",
+                    "price": 87,
+                    "description": "A curated sharing platter featuring a selection of our finest dishes — perfect for groups and celebrations.",
+                    "tags": [
+                        "seafood",
+                        "grill"
+                    ]
+                }
+            ]
+        },
+        "sides": {
+            "title": "Sides",
+            "items": [
+                {
+                    "name": "Fried Plantain",
+                    "price": 6,
+                    "description": "Sweet, caramelized fried plantain.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Fried Yam",
+                    "price": 6,
+                    "description": "Crispy fried yam chunks.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Attieke",
+                    "price": 6,
+                    "description": "Traditional Ivorian cassava couscous.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Chips",
+                    "price": 5,
+                    "description": "Classic golden chips.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Nigerian Jollof Rice",
+                    "price": 7,
+                    "description": "Fragrant, spicy jollof rice.",
+                    "tags": [
+                        "vegetarian",
+                        "spicy"
+                    ]
+                },
+                {
+                    "name": "Seasonal Stir-Fried Vegetables",
+                    "price": 6,
+                    "description": "Fresh seasonal vegetables.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Steamed White Rice",
+                    "price": 5,
+                    "description": "Fluffy steamed white rice.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                },
+                {
+                    "name": "Homemade Coleslaw",
+                    "price": 6.5,
+                    "description": "Creamy homemade coleslaw.",
+                    "tags": [
+                        "vegetarian"
+                    ]
+                }
+            ]
+        },
+        "desserts": {
+            "title": "Desserts",
+            "items": [
+                {
+                    "name": "Banana Cake",
+                    "price": 7.95,
+                    "description": "Moist banana cake served warm.",
+                    "tags": [
+                        "vegetarian",
+                        "contains-egg"
+                    ]
+                },
+                {
+                    "name": "Sticky Toffee Pudding",
+                    "price": 7.95,
+                    "description": "Classic sticky toffee pudding with warm toffee sauce.",
+                    "tags": [
+                        "vegetarian",
+                        "contains-egg"
+                    ]
+                },
+                {
+                    "name": "Waffle and Ice Cream",
+                    "price": 7.95,
+                    "description": "Fresh waffle with scoops of vanilla ice cream.",
+                    "tags": [
+                        "vegetarian",
+                        "contains-egg"
+                    ]
+                }
+            ]
+        }
+    },
+    "drinks": {
+        "cocktails": {
+            "title": "Cocktails",
+            "items": [
+                {
+                    "name": "Piña Colada",
+                    "price": 13,
+                    "description": "White Rum, pineapple, Cream and coconut.",
+                    "tags": []
+                },
+                {
+                    "name": "Rum Chapman",
+                    "price": 13,
+                    "description": "Orange, lemon, lime soda, grenadine and Wray and nephew white rum.",
+                    "tags": []
+                },
+                {
+                    "name": "Mojito",
+                    "price": 13,
+                    "description": "Lime, mint, sugar and white rum.",
+                    "tags": []
+                },
+                {
+                    "name": "Frozen Strawberry Daiquiri",
+                    "price": 13,
+                    "description": "Strawberry, Lime and White Rum.",
+                    "tags": []
+                },
+                {
+                    "name": "Frozen Coconut Daiquiri",
+                    "price": 13,
+                    "description": "Coconut, lime, white rum and Cream.",
+                    "tags": []
+                },
+                {
+                    "name": "Margarita",
+                    "price": 13,
+                    "description": "Tequila, lime and triple sec.",
+                    "tags": []
+                },
+                {
+                    "name": "P Star Martini",
+                    "price": 13,
+                    "description": "Passion fruit, vanilla, vodka.",
+                    "tags": []
+                },
+                {
+                    "name": "Dangerous Kalakuta",
+                    "price": 15,
+                    "description": "Hennessy, Tequila, Vodka, Disaronno and White Rum served with a flaming passion fruit.",
+                    "tags": [
+                        "spicy"
+                    ]
+                }
+            ]
+        },
+        "mocktails": {
+            "title": "Mocktails",
+            "items": [
+                {
+                    "name": "Virgin Mocktail",
+                    "price": 7.5,
+                    "description": "Ask our server for the selection of non-alcoholic mocktail options.",
+                    "tags": []
+                }
+            ]
+        },
+        "juice": {
+            "title": "Fresh Juice",
+            "items": [
+                {
+                    "name": "Tropical Vitality",
+                    "price": 5,
+                    "description": "Mango, Apple, Orange, Passion fruit.",
+                    "tags": []
+                },
+                {
+                    "name": "Berry Boost",
+                    "price": 5,
+                    "description": "Strawberry, Apple, Banana, Black Currant.",
+                    "tags": []
+                },
+                {
+                    "name": "UpBeet",
+                    "price": 5,
+                    "description": "Beetroot, Apple, Lemon, Ginger.",
+                    "tags": []
+                },
+                {
+                    "name": "Fresh Zing",
+                    "price": 5,
+                    "description": "Apple, Ginger.",
+                    "tags": []
+                },
+                {
+                    "name": "Green Magic",
+                    "price": 5,
+                    "description": "Apple, Celery, Orange, Spinach, Lemon, Ginger.",
+                    "tags": []
+                }
+            ]
+        },
+        "beerAndDraft": {
+            "title": "Beer / Draft",
+            "items": [
+                {
+                    "name": "Nigerian Guinness",
+                    "price": 7.5,
+                    "description": "Bold, rich Nigerian Guinness.",
+                    "tags": []
+                },
+                {
+                    "name": "Star Beer",
+                    "price": 7.5,
+                    "description": "Classic Nigerian lager.",
+                    "tags": []
+                },
+                {
+                    "name": "Trophy Beer",
+                    "price": 7.5,
+                    "description": "Premium Nigerian lager.",
+                    "tags": []
+                },
+                {
+                    "name": "Meantime Draught",
+                    "price": 5.5,
+                    "description": "London craft draught.",
+                    "tags": []
+                },
+                {
+                    "name": "Orijin Beer",
+                    "price": 7.5,
+                    "description": "Herb-infused African beer.",
+                    "tags": []
+                },
+                {
+                    "name": "Palmwine",
+                    "price": 7.5,
+                    "description": "Traditional West African palm wine.",
+                    "tags": []
+                },
+                {
+                    "name": "Strawberry & Lime Cider",
+                    "price": 5.5,
+                    "description": "Fruity strawberry and lime cider.",
+                    "tags": []
+                },
+                {
+                    "name": "Heineken",
+                    "price": 5.5,
+                    "description": "Classic Dutch lager.",
+                    "tags": []
+                },
+                {
+                    "name": "Camden Pale Ale / Hells",
+                    "price": 5.5,
+                    "description": "London-brewed craft ale.",
+                    "tags": []
+                },
+                {
+                    "name": "Red Stripe",
+                    "price": 5.5,
+                    "description": "Jamaican lager.",
+                    "tags": []
+                },
+                {
+                    "name": "Corona",
+                    "price": 5.5,
+                    "description": "Mexican pale lager.",
+                    "tags": []
+                }
+            ]
+        },
+        "spirits": {
+            "title": "Spirits",
+            "priceFormat": "Bottle / Shot",
+            "items": [
+                {
+                    "name": "JW Blue Label",
+                    "bottlePrice": 300,
+                    "shotPrice": 20,
+                    "description": "Premium blended Scotch whisky.",
+                    "tags": []
+                },
+                {
+                    "name": "Glenfiddich (15yrs)",
+                    "bottlePrice": 120,
+                    "shotPrice": 12,
+                    "description": "Single malt Scotch whisky.",
+                    "tags": []
+                },
+                {
+                    "name": "Bombay Sapphire",
+                    "bottlePrice": 70,
+                    "shotPrice": 6,
+                    "description": "Premium gin.",
+                    "tags": []
+                },
+                {
+                    "name": "Jack Daniels",
+                    "bottlePrice": 70,
+                    "shotPrice": 6,
+                    "description": "Tennessee whiskey.",
+                    "tags": []
+                },
+                {
+                    "name": "Hennessy",
+                    "bottlePrice": 90,
+                    "shotPrice": 8,
+                    "description": "Cognac.",
+                    "tags": []
+                },
+                {
+                    "name": "Remy Martin",
+                    "bottlePrice": 90,
+                    "shotPrice": 8,
+                    "description": "Cognac.",
+                    "tags": []
+                }
+            ]
+        },
+        "wine": {
+            "title": "Wine & Champagne",
+            "priceFormat": "Bottle / Glass",
+            "items": [
+                {
+                    "name": "Prosecco Bottle",
+                    "bottlePrice": 25,
+                    "description": "Italian sparkling wine.",
+                    "tags": []
+                },
+                {
+                    "name": "White Wine Bottle",
+                    "bottlePrice": 30,
+                    "glassPrice": 8,
+                    "description": "House white wine.",
+                    "tags": []
+                },
+                {
+                    "name": "Red Wine Bottle",
+                    "bottlePrice": 30,
+                    "glassPrice": 8,
+                    "description": "House red wine.",
+                    "tags": []
+                },
+                {
+                    "name": "Rosé Wine Bottle",
+                    "bottlePrice": 30,
+                    "glassPrice": 8,
+                    "description": "House rosé wine.",
+                    "tags": []
+                },
+                {
+                    "name": "Veuve Clicquot",
+                    "bottlePrice": 110,
+                    "description": "Premium champagne.",
+                    "tags": []
+                },
+                {
+                    "name": "Laurent Perrier",
+                    "bottlePrice": 130,
+                    "description": "Prestige champagne.",
+                    "tags": []
+                }
+            ]
+        },
+        "softDrinks": {
+            "title": "Soft Drinks",
+            "items": [
+                {
+                    "name": "Original Chapman",
+                    "price": 5.5,
+                    "description": "Nigerian mixed fruit drink.",
+                    "tags": []
+                },
+                {
+                    "name": "Coke",
+                    "price": 4,
+                    "description": "Coca-Cola.",
+                    "tags": []
+                },
+                {
+                    "name": "Coke Zero",
+                    "price": 4,
+                    "description": "Sugar-free Cola.",
+                    "tags": []
+                },
+                {
+                    "name": "Nigerian Fanta",
+                    "price": 5.5,
+                    "description": "Imported Nigerian Fanta.",
+                    "tags": []
+                },
+                {
+                    "name": "Sprite",
+                    "price": 4,
+                    "description": "Lemon-lime soda.",
+                    "tags": []
+                },
+                {
+                    "name": "Apple Juice Jug",
+                    "price": 7.5,
+                    "description": "Fresh apple juice (jug). Glass: £3.",
+                    "tags": []
+                },
+                {
+                    "name": "Orange Juice Jug",
+                    "price": 7.5,
+                    "description": "Fresh orange juice (jug). Glass: £3.",
+                    "tags": []
+                },
+                {
+                    "name": "Pineapple Juice Jug",
+                    "price": 7.5,
+                    "description": "Fresh pineapple juice (jug). Glass: £3.",
+                    "tags": []
+                },
+                {
+                    "name": "Malta Guinness",
+                    "price": 4.5,
+                    "description": "Non-alcoholic malt drink.",
+                    "tags": []
+                },
+                {
+                    "name": "Still Water",
+                    "price": 6,
+                    "description": "Still mineral water.",
+                    "tags": []
+                },
+                {
+                    "name": "Sparkling Water",
+                    "price": 6,
+                    "description": "Sparkling mineral water.",
+                    "tags": []
+                },
+                {
+                    "name": "Carrot and Apple Juice",
+                    "price": 4,
+                    "description": "Fresh carrot and apple juice.",
+                    "tags": []
+                }
+            ]
+        }
+    }
+}

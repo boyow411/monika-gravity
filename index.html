@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monika Restaurant Deptford | Authentic West African Seafood & Charcoal Grill</title>
+  <meta name="description"
+    content="Experience authentic West African Seafood and Charcoal Grill at Monika Restaurant, Deptford. Bold flavours, vibrant spices, and fresh ingredients. Reserve your table now.">
+  <meta property="og:title" content="Monika Restaurant | Authentic West African Seafood & Charcoal Grill">
+  <meta property="og:description"
+    content="Experience authentic West African Seafood and Charcoal Grill at Monika Restaurant, Deptford.">
+  <meta property="og:image" content="/images/hero.jpg">
+  <meta property="og:type" content="restaurant">
+  <link rel="icon" href="/images/logo.png" type="image/png">
+  <link rel="canonical" href="https://monikarestaurant.com">
+
+  <!-- Schema.org Restaurant Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Monika Restaurant",
+    "image": "/images/hero.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Deptford Broadway",
+      "addressLocality": "London",
+      "postalCode": "SE8 4PA",
+      "addressCountry": "GB"
+    },
+    "telephone": "020 3345 3841",
+    "servesCuisine": ["West African", "Seafood", "Charcoal Grill"],
+    "priceRange": "££",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "17:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "13:00", "closes": "23:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "13:00", "closes": "23:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "13:00", "closes": "23:00" }
+    ],
+    "url": "https://monikarestaurant.com",
+    "menu": "https://monikarestaurant.com/menu.html"
+  }
+  </script>
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/hero.css">
+  <link rel="stylesheet" href="/css/chat.css">
+  <link rel="stylesheet" href="/css/animations.css">
+  <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <img src="/images/logo.png" alt="Monika Restaurant" width="64" height="64">
+        <span class="header__logo-text">Monika<span>.</span></span>
+      </a>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="/" class="nav__link is-active">Home</a></li>
+          <li><a href="/menu.html" class="nav__link">Menu</a></li>
+          <li><a href="/venue.html" class="nav__link">Venue</a></li>
+          <li><a href="/story.html" class="nav__link">Our Story</a></li>
+          <li><a href="/gallery.html" class="nav__link">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <button class="header__chat-btn" id="header-chat-btn" aria-label="Chat with us">💬</button>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24">
+            <path
+              d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.41 1.41c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.41 1.41c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41l-1.41-1.41zm1.41-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.41 1.41c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.41-1.41zM7.4 18.36a.996.996 0 000 1.41.996.996 0 001.41 0l1.41-1.41c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L7.4 18.36z" />
+          </svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24">
+            <path
+              d="M9.37 5.51A7.35 7.35 0 0 0 9.1 7.5c0 4.08 3.32 7.4 7.4 7.4.68 0 1.35-.09 1.99-.27A7.014 7.014 0 0 1 12 19c-3.86 0-7-3.14-7-7 0-2.93 1.81-5.45 4.37-6.49z" />
+          </svg>
+        </button>
+        <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+          target="_blank" rel="noopener" class="btn btn--primary nav__cta" id="nav-reserve-btn">Reserve Now</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="nav__mobile" id="nav-mobile">
+    <button class="nav__mobile-close" id="nav-mobile-close" aria-label="Close menu">✕</button>
+    <a href="/" class="nav__link is-active">Home</a>
+    <a href="/menu.html" class="nav__link">Menu</a>
+    <a href="/venue.html" class="nav__link">Venue</a>
+    <a href="/story.html" class="nav__link">Our Story</a>
+    <a href="/gallery.html" class="nav__link">Gallery</a>
+    <a href="/private-hire.html" class="nav__link">Private Hire</a>
+    <a href="/contact.html" class="nav__link">Contact</a>
+    <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+      target="_blank" rel="noopener" class="btn btn--primary btn--lg">Reserve Now</a>
+  </div>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-decor">
+      <img src="/images/brush-stroke.png" alt="" class="hero__brush" aria-hidden="true">
+    </div>
+
+    <div class="container hero__container">
+      <div class="hero__content reveal fade-up">
+        <span class="text-overline hero__overline">Deptford, London</span>
+        <h1 class="hero__headline">Authentic West African<br><em>Seafood</em> and Charcoal Grill</h1>
+        <p class="hero__sub">Experience the bold flavours and rich culinary heritage of West Africa at Monika Restaurant
+          — where every plate tells a story.</p>
+
+        <div class="hero__actions">
+          <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+            target="_blank" rel="noopener" class="btn btn--primary btn--lg" id="hero-reserve-btn">Reserve Now</a>
+          <a href="/menu.html" class="btn btn--outline btn--lg" id="hero-menu-btn">View Menu</a>
+        </div>
+
+        <div class="hero__chips">
+          <span class="hero__chip">🐟 West African Seafood</span>
+          <span class="hero__chip">🔥 Charcoal Grill</span>
+          <span class="hero__chip">🎉 Private Hire</span>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal scale-in">
+        <div class="hero__dish-circle">
+          <img src="/images/hero-dish.png" alt="Signature Whole Grilled Fish with Plantain" class="hero__dish-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOD SECTION ═══════════ -->
+  <section class="section" id="food-section">
+    <div class="container">
+      <div class="home-section reveal">
+        <div class="home-section__image">
+          <img src="/images/gallery/2.jpg" alt="Authentic African flavours at Monika Restaurant" loading="lazy">
+        </div>
+        <div>
+          <span class="text-overline home-section__overline">Our Cuisine</span>
+          <h2 class="home-section__title">Authentic African Flavours</h2>
+          <div class="divider"></div>
+          <p class="home-section__body">At Monika Restaurant, we take pride in delivering the finest West African
+            Seafood and Charcoal Grill. Our menu is a celebration of bold flavours, vibrant spices, and fresh
+            ingredients, carefully prepared by our expert chefs. Whether you're indulging in classic dishes like Jollof
+            Rice or exploring our contemporary twists on African favourites, each plate is a true reflection of the rich
+            culinary heritage of the region. Taste the soul of Africa, one bite at a time.</p>
+          <a href="/menu.html" class="btn btn--outline" id="food-menu-btn">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ BOOKINGS SECTION ═══════════ -->
+  <section class="section" id="bookings-section" style="background: var(--color-bg-secondary);">
+    <div class="container">
+      <div class="home-section home-section--reverse reveal">
+        <div class="home-section__image">
+          <img src="/images/gallery/3.jpg" alt="Reserve your table at Monika Restaurant" loading="lazy">
+        </div>
+        <div>
+          <span class="text-overline home-section__overline">Reservations</span>
+          <h2 class="home-section__title">Reserve Your Table with Ease</h2>
+          <div class="divider"></div>
+          <p class="home-section__body">Planning your next meal at Monika is effortless. Whether you're gathering with
+            friends or having an intimate dinner, our simple online booking system ensures you secure the perfect spot.
+            Choose your preferred date and time, and let us take care of the rest. Walk-ins are always welcome, but
+            reservations are recommended to guarantee your seat, especially during peak times.</p>
+          <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+            target="_blank" rel="noopener" class="btn btn--primary" id="bookings-reserve-btn">Reserve Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PRIVATE HIRE SECTION ═══════════ -->
+  <section class="section" id="private-hire-section">
+    <div class="container">
+      <div class="home-section reveal">
+        <div class="home-section__image">
+          <img src="/images/gallery/9.jpg" alt="Private hire venue at Monika Restaurant" loading="lazy">
+        </div>
+        <div>
+          <span class="text-overline home-section__overline">Events</span>
+          <h2 class="home-section__title">Your Event, Our Venue</h2>
+          <div class="divider"></div>
+          <p class="home-section__body">Monika Restaurant is the ideal setting for any private celebration or corporate
+            event. Our stylish and spacious venue can be tailored to suit your needs, offering a unique blend of modern
+            elegance and African warmth. From birthday parties and weddings to business meetings and exclusive dinners,
+            our dedicated team will work with you to create a bespoke event that exceeds expectations.</p>
+          <a href="/private-hire.html" class="btn btn--outline" id="private-hire-btn">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SIGNATURE DISHES ═══════════ -->
+  <section class="section" id="signature-section" style="background: var(--color-bg-secondary);">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: var(--space-48);">
+        <span class="text-overline">From Our Kitchen</span>
+        <h2 style="margin-top: var(--space-8);">Signature Dishes</h2>
+        <div class="divider divider--center" style="margin-top: var(--space-16);"></div>
+      </div>
+
+      <div class="signature-carousel">
+        <div class="signature-carousel__track">
+          <div class="signature-card reveal">
+            <div class="signature-card__image"><img src="/images/gallery/4.jpg" alt="Royal Lobster Feast"
+                loading="lazy"></div>
+            <div class="signature-card__body">
+              <div class="signature-card__name">Royal Lobster Feast</div>
+              <div class="signature-card__price">£75</div>
+              <div class="signature-card__desc">A whole lobster smothered in bold, creamy sauce, blending fiery African
+                chili with savory, buttery notes.</div>
+            </div>
+          </div>
+          <div class="signature-card reveal reveal-delay-1">
+            <div class="signature-card__image"><img src="/images/gallery/5.jpg" alt="Monika Whole Croaker Fish"
+                loading="lazy"></div>
+            <div class="signature-card__body">
+              <div class="signature-card__name">Monika Whole Croaker Fish</div>
+              <div class="signature-card__price">£30</div>
+              <div class="signature-card__desc">Juicy croaker fish grilled over charcoal, served with our signature
+                Monika spicy sauce.</div>
+            </div>
+          </div>
+          <div class="signature-card reveal reveal-delay-2">
+            <div class="signature-card__image"><img src="/images/gallery/6.jpg" alt="King Size Seafood Bag"
+                loading="lazy"></div>
+            <div class="signature-card__body">
+              <div class="signature-card__name">King Size Seafood Bag</div>
+              <div class="signature-card__price">£65</div>
+              <div class="signature-card__desc">Lobster Tail, Snow Crab, Squid, Prawns, Shrimps, Mussels, Corn, and
+                more.</div>
+            </div>
+          </div>
+          <div class="signature-card reveal reveal-delay-3">
+            <div class="signature-card__image"><img src="/images/gallery/8.jpg" alt="Mother's Smoked Oxtail"
+                loading="lazy"></div>
+            <div class="signature-card__body">
+              <div class="signature-card__name">MOTHER'S Smoked Oxtail</div>
+              <div class="signature-card__price">£28</div>
+              <div class="signature-card__desc">Rich, slow-smoked oxtail in a hearty sauce, served over fragrant jollof
+                rice with sweet plantain.</div>
+            </div>
+          </div>
+          <div class="signature-card">
+            <div class="signature-card__image"><img src="/images/gallery/7.jpg" alt="Sharing Feast" loading="lazy">
+            </div>
+            <div class="signature-card__body">
+              <div class="signature-card__name">Taste of Monika's Sharing Feast</div>
+              <div class="signature-card__price">£87</div>
+              <div class="signature-card__desc">A curated sharing platter featuring a selection of our finest dishes —
+                perfect for celebrations.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ MENU TILES ═══════════ -->
+  <section class="section" id="menu-tiles-section">
+    <div class="container">
+      <div class="text-center reveal" style="margin-bottom: var(--space-48);">
+        <span class="text-overline">Explore</span>
+        <h2 style="margin-top: var(--space-8);">Our Menu</h2>
+        <div class="divider divider--center" style="margin-top: var(--space-16);"></div>
+      </div>
+
+      <div class="menu-tiles stagger-children reveal">
+        <a href="/menu.html" class="menu-tile" id="tile-food">
+          <div class="menu-tile__icon">🍽️</div>
+          <div class="menu-tile__title">Food Menu</div>
+          <p class="menu-tile__desc">Explore a variety of West African Seafood and Charcoal Grill, crafted with fresh
+            ingredients and bold flavours.</p>
+        </a>
+        <a href="/menu.html#drinks" class="menu-tile" id="tile-drinks">
+          <div class="menu-tile__icon">🍸</div>
+          <div class="menu-tile__title">Drinks Menu</div>
+          <p class="menu-tile__desc">Savour our selection of refreshing cocktails, premium spirits, and traditional
+            African beverages.</p>
+        </a>
+        <a href="/private-hire.html" class="menu-tile" id="tile-hire">
+          <div class="menu-tile__icon">🎉</div>
+          <div class="menu-tile__title">Private Hire</div>
+          <p class="menu-tile__desc">Tailored for your special occasions, our private hire menu offers a curated
+            selection of dishes.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ STORY TEASER ═══════════ -->
+  <section class="section" style="background: var(--color-bg-secondary);">
+    <div class="container container--narrow text-center reveal">
+      <span class="text-overline">Our Heritage</span>
+      <h2 style="margin-top: var(--space-8); margin-bottom: var(--space-24);">The Story of Monika</h2>
+      <p class="text-muted"
+        style="line-height: var(--leading-relaxed); margin-bottom: var(--space-32); font-size: 1.125rem;">
+        We named our restaurant after the famous and iconic Monika fish — a whole grilled popular fish dish created by
+        the pioneers of 805 Restaurant. Discover our heritage and the rich culinary traditions that inspire every dish
+        we serve.
+      </p>
+      <a href="/story.html" class="btn btn--outline" id="story-btn">Read Our Story</a>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">Monika<span>.</span></div>
+          <p>Authentic West African Seafood and Charcoal Grill in the heart of Deptford, London. Part of the
+            award-winning 805 Restaurant Group.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/monikarestaurants/" target="_blank" rel="noopener"
+              class="footer__social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/805Restaurants/" target="_blank" rel="noopener"
+              class="footer__social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__heading">Quick Links</div>
+          <div class="footer__links">
+            <a href="/" class="footer__link">Home</a>
+            <a href="/menu.html" class="footer__link">Menu</a>
+            <a href="/venue.html" class="footer__link">Venue</a>
+            <a href="/story.html" class="footer__link">Our Story</a>
+            <a href="/gallery.html" class="footer__link">Gallery</a>
+            <a href="/private-hire.html" class="footer__link">Private Hire</a>
+            <a href="/faqs.html" class="footer__link">FAQs</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__heading">Contact</div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <span>14 Deptford Broadway,<br>London SE8 4PA</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+            </svg>
+            <a href="tel:+442033453841" class="footer__link">020 3345 3841</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z" />
+            </svg>
+            <a href="https://maps.app.goo.gl/1ZHKEzsGW2fBqyNQ9" target="_blank" rel="noopener"
+              class="footer__link">Parking — Click Here</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__heading">Opening Hours</div>
+          <div class="footer__hours-table">
+            <div class="footer__hours-row"><span>Mon–Thu</span><span>17:00–23:00</span></div>
+            <div class="footer__hours-row"><span>Fri</span><span>13:00–23:30</span></div>
+            <div class="footer__hours-row"><span>Sat</span><span>13:00–23:30</span></div>
+            <div class="footer__hours-row"><span>Sun</span><span>13:00–23:00</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span class="footer__copyright">&copy; 2025 Monika Restaurant. Part of the 805 Restaurant Group. All rights
+          reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="/contact.html">Contact</a>
+          <a href="/faqs.html">FAQs</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════ STICKY CTA (Mobile) ═══════════ -->
+  <div class="sticky-cta" id="sticky-cta">
+    <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+      target="_blank" rel="noopener" class="btn btn--primary" id="sticky-reserve-btn">Reserve Now</a>
+  </div>
+
+  <!-- ═══════════ AI RECEPTIONIST ═══════════ -->
+  <div class="chat-widget" id="chat-widget">
+    <button class="chat-widget__trigger pulse-ring" id="chat-trigger" aria-label="Open chat">
+      💬
+    </button>
+    <div class="chat-panel" id="chat-panel">
+      <div class="chat-panel__header">
+        <div class="chat-panel__avatar">🍽️</div>
+        <div class="chat-panel__info">
+          <div class="chat-panel__name">Monika Reception</div>
+          <div class="chat-panel__status">Online</div>
+        </div>
+        <button class="chat-panel__close" id="chat-close" aria-label="Close chat">✕</button>
+      </div>
+      <div class="chat-panel__messages" id="chat-messages">
+        <div class="chat-message chat-message--bot">
+          Welcome to Monika Restaurant! 🎉 How can I help you today?
+        </div>
+      </div>
+      <div class="chat-quick-actions" id="chat-quick-actions">
+        <button class="chat-quick-btn" data-action="reserve">Reserve a table</button>
+        <button class="chat-quick-btn" data-action="menu">View menu</button>
+        <button class="chat-quick-btn" data-action="hire">Private hire</button>
+        <button class="chat-quick-btn" data-action="hours">Opening times</button>
+        <button class="chat-quick-btn" data-action="call">Call us</button>
+      </div>
+      <div class="chat-panel__input">
+        <input type="text" id="chat-input" placeholder="Ask me anything..." autocomplete="off">
+        <button class="chat-panel__send" id="chat-send" aria-label="Send message">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/js/main.js"></script>
+  <script type="module" src="/js/chat.js"></script>
+  <script type="module" src="/js/analytics.js"></script>
+</body>
+
+</html>

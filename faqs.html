@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs | Monika Restaurant</title>
+    <meta name="description"
+        content="Frequently asked questions about Monika Restaurant — hours, menu, parking, private hire, and more.">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="/css/animations.css">
+</head>
+
+<body>
+    <header class="header is-scrolled" id="header">
+        <div class="header__inner"><a href="/" class="header__logo"><img src="/images/logo.png" alt="Monika" width="40"
+                    height="40"></a>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="/" class="nav__link">Home</a></li>
+                    <li><a href="/menu.html" class="nav__link">Menu</a></li>
+                    <li><a href="/venue.html" class="nav__link">Venue</a></li>
+                    <li><a href="/story.html" class="nav__link">Our Story</a></li>
+                    <li><a href="/gallery.html" class="nav__link">Gallery</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="header__chat-btn" id="header-chat-btn" aria-label="Chat with us">💬</button>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24">
+                        <path
+                            d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z" />
+                    </svg>
+                    <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24">
+                        <path
+                            d="M9.37 5.51A7.35 7.35 0 0 0 9.1 7.5c0 4.08 3.32 7.4 7.4 7.4.68 0 1.35-.09 1.99-.27A7.014 7.014 0 0 1 12 19c-3.86 0-7-3.14-7-7 0-2.93 1.81-5.45 4.37-6.49z" />
+                    </svg>
+                </button>
+                <a href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+                    target="_blank" rel="noopener" class="btn btn--primary nav__cta">Reserve Now</a>
+                <button class="nav__toggle" id="nav-toggle"
+                    aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    <div class="nav__mobile" id="nav-mobile"><button class="nav__mobile-close" id="nav-mobile-close"
+            aria-label="Close menu">✕</button><a href="/" class="nav__link">Home</a><a href="/menu.html"
+            class="nav__link">Menu</a><a href="/venue.html" class="nav__link">Venue</a><a href="/story.html"
+            class="nav__link">Our Story</a><a href="/gallery.html" class="nav__link">Gallery</a><a
+            href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+            target="_blank" rel="noopener" class="btn btn--primary btn--lg">Reserve Now</a></div>
+
+    <section class="page-hero">
+        <div class="container"><span class="text-overline page-hero__overline">Help</span>
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about Monika Restaurant.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="faq-list reveal" id="faq-list"></div>
+            <div class="text-center" style="margin-top:var(--space-64)">
+                <p class="text-muted" style="margin-bottom:var(--space-16)">Can't find what you're looking for?</p>
+                <div style="display:flex;gap:var(--space-12);justify-content:center;flex-wrap:wrap">
+                    <a href="tel:+442033453841" class="btn btn--primary">Call Us: 020 3345 3841</a>
+                    <a href="/contact.html" class="btn btn--outline">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom"><span class="footer__copyright">&copy; 2025 Monika Restaurant. All rights
+                    reserved.</span></div>
+        </div>
+    </footer>
+    <div class="sticky-cta"><a
+            href="https://web.dojo.app/create_booking/vendor/4w3KsIvZJOhkRjvfcYFI9-mNbTqGcKHCCwTTtEr_NhM_restaurant"
+            target="_blank" rel="noopener" class="btn btn--primary">Reserve Now</a></div>
+    <div class="chat-widget" id="chat-widget"><button class="chat-widget__trigger pulse-ring" id="chat-trigger"
+            aria-label="Open chat">💬</button>
+        <div class="chat-panel" id="chat-panel">
+            <div class="chat-panel__header">
+                <div class="chat-panel__avatar">🍽️</div>
+                <div class="chat-panel__info">
+                    <div class="chat-panel__name">Monika Reception</div>
+                    <div class="chat-panel__status">Online</div>
+                </div><button class="chat-panel__close" id="chat-close">✕</button>
+            </div>
+            <div class="chat-panel__messages" id="chat-messages">
+                <div class="chat-message chat-message--bot">Have a question? Ask away! 🎉</div>
+            </div>
+            <div class="chat-quick-actions" id="chat-quick-actions"><button class="chat-quick-btn"
+                    data-action="reserve">Reserve a table</button><button class="chat-quick-btn"
+                    data-action="hours">Opening times</button></div>
+            <div class="chat-panel__input"><input type="text" id="chat-input" placeholder="Ask me anything..."
+                    autocomplete="off"><button class="chat-panel__send" id="chat-send">➤</button></div>
+        </div>
+    </div>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/faqs.js"></script>
+    <script type="module" src="/js/chat.js"></script>
+</body>
+
+</html>

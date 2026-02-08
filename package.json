@@ -1,0 +1,14 @@
+{
+  "name": "monika-gravity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monika Restaurant — Authentic West African Seafood & Charcoal Grill",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}

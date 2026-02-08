@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What are your opening hours?",
+        "answer": "We are open Monday to Thursday 17:00–23:00, Friday and Saturday 13:00–23:30, and Sunday 13:00–23:00."
+    },
+    {
+        "question": "Where are you located?",
+        "answer": "We are located at 14 Deptford Broadway, London SE8 4PA."
+    },
+    {
+        "question": "How do I make a reservation?",
+        "answer": "You can reserve your table online through our booking system. Click 'Reserve Now' on our website or visit our booking page directly. Walk-ins are also welcome, but reservations are recommended, especially during peak times."
+    },
+    {
+        "question": "What type of food do you serve?",
+        "answer": "We serve authentic West African Seafood and Charcoal Grill. Our menu features dishes like Jollof Rice, Suya, grilled fish, seafood platters, and contemporary twists on African favourites."
+    },
+    {
+        "question": "Do you have parking?",
+        "answer": "Yes, there is parking available nearby. You can find directions and parking options using our parking link on the venue page."
+    },
+    {
+        "question": "Can I book the venue for private events?",
+        "answer": "Absolutely! Monika Restaurant is the ideal setting for private celebrations, corporate events, birthday parties, weddings, business meetings, and exclusive dinners. Our dedicated team will work with you to create a bespoke event. Contact us or fill out our private hire enquiry form."
+    },
+    {
+        "question": "What is the Monika Fish?",
+        "answer": "The Monika fish is our signature whole grilled croaker fish, marinated in our special home seasonings and spices, then chargrilled to lock in a delicious smoky flavour. It's finished with a generous amount of our spicy Monika sauce. The dish was created by the pioneers of 805 Restaurant, Mr Frederick James and Mrs Damaris James."
+    },
+    {
+        "question": "Do you have vegetarian options?",
+        "answer": "Yes, we have several vegetarian options including Garden Rocket Salad, Our Mac & Cheese, Vegetable Spring Rolls, Seasonal Stir-Fry Vegetables, and a variety of sides like Fried Plantain, Jollof Rice, and Chips."
+    },
+    {
+        "question": "Do any dishes contain nuts?",
+        "answer": "Yes, several of our suya-based dishes contain nuts, including Charcoal-Grilled Beef Suya, Charcoal Flame Chicken Suya, Guinea Fowl Suya, Charcoal-Grilled Suya Corn Ribs, and our Banga Tiger Prawn & Steamed Rice (which contains palm nut sauce). Please inform your server of any allergies."
+    },
+    {
+        "question": "What is your phone number?",
+        "answer": "You can reach us at 020 3345 3841."
+    },
+    {
+        "question": "Do you have a drinks menu?",
+        "answer": "Yes! We offer a great selection of cocktails (£13–£15), fresh juices (£5), Nigerian and international beers, premium spirits, and wines including Prosecco, and champagnes like Veuve Clicquot and Laurent Perrier."
+    },
+    {
+        "question": "What are your signature dishes?",
+        "answer": "Our signature dishes include the Charcoal-Grilled Monika Whole Croaker Fish (£30), Royal Lobster Feast (£75), MOTHER'S Home Cooked Smoked Oxtail (£28), King Size Seafood Bag (£65), and our Taste of Monika's Sharing Feast (£87)."
+    }
+]

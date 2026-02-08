@@ -1,0 +1,240 @@
+/* ====================================
+   HOMEPAGE SECTIONS
+   Styles for: Food, Bookings, Private Hire,
+   Signature Dishes, Menu Tiles, Story Teaser
+   ==================================== */
+
+/* ── Split Sections (Food / Bookings / Private Hire) ── */
+.home-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-64);
+    align-items: center;
+}
+
+.home-section--reverse {
+    direction: rtl;
+}
+
+.home-section--reverse>* {
+    direction: ltr;
+}
+
+.home-section__image {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    box-shadow: var(--shadow-lg);
+}
+
+.home-section__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.home-section__image:hover img {
+    transform: scale(1.05);
+}
+
+.home-section__overline {
+    display: block;
+    margin-bottom: var(--space-16);
+}
+
+.home-section__title {
+    font-family: var(--font-heading);
+    font-size: var(--text-h2);
+    font-weight: var(--weight-bold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-16);
+}
+
+.home-section__body {
+    font-size: 1rem;
+    line-height: var(--leading-relaxed);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-32);
+    max-width: 520px;
+}
+
+/* ── Signature Dishes Carousel ── */
+.signature-carousel {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin: 0 calc(var(--space-24) * -1);
+    padding: 0 var(--space-24);
+}
+
+.signature-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.signature-carousel__track {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--space-24);
+}
+
+.signature-card {
+    background: var(--color-bg-primary);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border-muted);
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.signature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-accent-primary);
+}
+
+.signature-card__image {
+    aspect-ratio: 3/2;
+    overflow: hidden;
+}
+
+.signature-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.signature-card:hover .signature-card__image img {
+    transform: scale(1.08);
+}
+
+.signature-card__body {
+    padding: var(--space-24);
+}
+
+.signature-card__name {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-4);
+}
+
+.signature-card__price {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-accent-primary);
+    margin-bottom: var(--space-12);
+}
+
+.signature-card__desc {
+    font-size: var(--text-body-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+}
+
+/* ── Menu Tiles ── */
+.menu-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-24);
+}
+
+.menu-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-48) var(--space-32);
+    background: var(--color-bg-primary);
+    border: 1px solid var(--color-border-muted);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.menu-tile:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-accent-primary);
+    color: inherit;
+}
+
+.menu-tile__icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--color-bg-secondary);
+    border-radius: 50%;
+}
+
+.menu-tile__title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-accent-primary);
+    margin-bottom: var(--space-12);
+}
+
+.menu-tile__desc {
+    font-size: var(--text-body-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    max-width: 320px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1200px) {
+    .signature-carousel__track {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .home-section {
+        gap: var(--space-32);
+    }
+
+    .signature-carousel__track {
+        grid-template-columns: repeat(3, minmax(260px, 1fr));
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        grid-template-columns: 1fr;
+        gap: var(--space-32);
+    }
+
+    .home-section--reverse {
+        direction: ltr;
+    }
+
+    .home-section__image {
+        order: -1;
+    }
+
+    .home-section__body {
+        max-width: 100%;
+    }
+
+    .signature-carousel__track {
+        grid-template-columns: repeat(5, 280px);
+        gap: var(--space-16);
+    }
+
+    .menu-tiles {
+        grid-template-columns: 1fr;
+    }
+}

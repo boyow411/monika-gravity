@@ -1,0 +1,313 @@
+/* ====================================
+   MENU PAGE STYLES
+   ==================================== */
+
+.menu-page {
+    padding-top: var(--space-32);
+}
+
+/* ── Menu Toggle (Food/Drinks) ── */
+.menu-toggle {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-8);
+    margin-bottom: var(--space-32);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-full);
+    padding: var(--space-4);
+    display: inline-flex;
+}
+
+.menu-toggle__btn {
+    padding: var(--space-12) var(--space-32);
+    border-radius: var(--radius-full);
+    font-size: var(--text-body-sm);
+    font-weight: var(--weight-semibold);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    transition: all var(--duration-normal) var(--ease-out);
+}
+
+.menu-toggle__btn.is-active {
+    background: var(--color-accent-primary);
+    color: var(--color-text-inverse);
+}
+
+.menu-toggle__btn:hover:not(.is-active) {
+    color: var(--color-text-primary);
+}
+
+/* ── Category Nav ── */
+.menu-categories {
+    display: flex;
+    gap: var(--space-8);
+    overflow-x: auto;
+    padding-bottom: var(--space-16);
+    margin-bottom: var(--space-32);
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-category-btn {
+    flex-shrink: 0;
+    padding: var(--space-8) var(--space-24);
+    border-radius: var(--radius-full);
+    font-size: var(--text-body-sm);
+    font-weight: var(--weight-medium);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border-default);
+    transition: all var(--duration-normal) var(--ease-out);
+    white-space: nowrap;
+}
+
+.menu-category-btn.is-active {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
+    background: var(--color-accent-soft);
+}
+
+.menu-category-btn:hover:not(.is-active) {
+    border-color: var(--color-text-muted);
+    color: var(--color-text-primary);
+}
+
+/* ── Filter Chips ── */
+.menu-filters {
+    display: flex;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-32);
+}
+
+.menu-filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-16);
+    border-radius: var(--radius-full);
+    font-size: var(--text-caption);
+    font-weight: var(--weight-medium);
+    letter-spacing: 0.03em;
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border-muted);
+    transition: all var(--duration-fast) var(--ease-out);
+    cursor: pointer;
+}
+
+.menu-filter-chip:hover {
+    border-color: var(--color-border-default);
+    color: var(--color-text-secondary);
+}
+
+.menu-filter-chip.is-active {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
+    background: var(--color-accent-soft);
+}
+
+.menu-filter-chip__icon {
+    font-size: 0.875rem;
+}
+
+/* ── Menu Section ── */
+.menu-section {
+    margin-bottom: var(--space-64);
+}
+
+.menu-section__header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-16);
+    margin-bottom: var(--space-32);
+    padding-bottom: var(--space-16);
+    border-bottom: 1px solid var(--color-border-muted);
+}
+
+.menu-section__icon {
+    font-size: 1.5rem;
+}
+
+.menu-section__title {
+    font-family: var(--font-heading);
+    font-size: var(--text-h2);
+    font-weight: var(--weight-semibold);
+}
+
+.menu-section__count {
+    margin-left: auto;
+    font-size: var(--text-caption);
+    color: var(--color-text-muted);
+}
+
+/* ── Menu Item Cards ── */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--space-24);
+}
+
+.menu-item {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border-muted);
+    border-radius: var(--radius-lg);
+    padding: var(--space-24);
+    transition: all var(--duration-normal) var(--ease-out);
+}
+
+.menu-item:hover {
+    border-color: var(--color-border-accent);
+    box-shadow: var(--shadow-sm);
+}
+
+.menu-item.is-hidden {
+    display: none;
+}
+
+.menu-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-16);
+    margin-bottom: var(--space-8);
+}
+
+.menu-item__name {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-primary);
+    line-height: var(--leading-tight);
+}
+
+.menu-item__price {
+    font-size: 1.125rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-accent-primary);
+    white-space: nowrap;
+}
+
+.menu-item__desc {
+    font-size: var(--text-body-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-normal);
+    margin-bottom: var(--space-12);
+}
+
+.menu-item__addons {
+    font-size: var(--text-caption);
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin-bottom: var(--space-12);
+}
+
+.menu-item__tags {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+}
+
+.menu-item__tag {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: 2px var(--space-8);
+    border-radius: var(--radius-full);
+    font-size: 0.625rem;
+    font-weight: var(--weight-semibold);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.menu-item__tag--seafood {
+    background: rgba(49, 130, 206, 0.12);
+    color: #2B6CB0;
+}
+
+.menu-item__tag--grill {
+    background: rgba(221, 107, 32, 0.12);
+    color: #C05621;
+}
+
+.menu-item__tag--spicy {
+    background: rgba(229, 62, 62, 0.12);
+    color: #C53030;
+}
+
+.menu-item__tag--vegetarian {
+    background: rgba(56, 161, 105, 0.12);
+    color: #2F855A;
+}
+
+.menu-item__tag--contains-nuts {
+    background: rgba(214, 158, 46, 0.12);
+    color: #B7791F;
+}
+
+.menu-item__tag--contains-egg {
+    background: rgba(237, 206, 130, 0.12);
+    color: #D69E2E;
+}
+
+/* ── Drink Items (Price Columns) ── */
+.menu-item--drink .menu-item__prices {
+    display: flex;
+    gap: var(--space-16);
+    margin-top: var(--space-8);
+}
+
+.menu-item__price-label {
+    font-size: var(--text-caption);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ── PDF Download ── */
+.menu-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-16);
+    padding: var(--space-32);
+    background: var(--color-bg-card);
+    border: 1px dashed var(--color-border-accent);
+    border-radius: var(--radius-lg);
+    margin-top: var(--space-48);
+    text-align: center;
+}
+
+.menu-download__icon {
+    font-size: 2rem;
+}
+
+.menu-download__text {
+    color: var(--color-text-secondary);
+    font-size: var(--text-body-sm);
+}
+
+.menu-download__text strong {
+    display: block;
+    color: var(--color-text-primary);
+    font-size: var(--text-body);
+    margin-bottom: var(--space-4);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-item {
+        padding: var(--space-16);
+    }
+
+    .menu-section__header {
+        flex-wrap: wrap;
+    }
+}
